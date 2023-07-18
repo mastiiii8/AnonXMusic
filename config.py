@@ -8,25 +8,25 @@ from pyrogram import filters
 load_dotenv()
 
 API_ID = int(getenv("11550403"))
-API_HASH = getenv("API_HASH")
+API_HASH = getenv("b77c85d4e2ec851bc69613a7cffd567d")
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("6010451035:AAFayRbY0GlThUdfp9P3T9QgSgFeQOtyeQk")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴀɴᴏɴ ダ ᴍᴜsɪᴄ")
+MONGO_DB_URI = getenv("MONGO_DB_URI",mongodb+srv://Tosumemon:Tosumemon@cluster0.wnpcxp8.mongodb.net/?retryWrites=true&w=majority")
+LOG_GROUP_ID = int(getenv("-1001830943697"))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "harsh ダ ᴍᴜsɪᴄ")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "1356469075").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "6387600212").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/AnonymousX1025/AnonXMusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/mastiiii8/AnonXMusic")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FallenAssociation")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/DevilsHeavenMF")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/rometic_world")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/rometic_world")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
